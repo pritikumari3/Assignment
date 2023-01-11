@@ -1,0 +1,56 @@
+//Q.1
+public class Main
+{
+public static void main(String[] args) {
+int x=2;
+int y=4;
+System.out.print(x*y);
+}
+}
+//Q.2
+public class Main
+{
+public static void main(String[] args) {
+int x='U';
+System.out.print("The ascii value of U is : " + x);
+}
+}
+//Q.3
+public class Main
+{
+public static void main(String[] args) {
+
+int length=6;
+int breadth=5;
+System.out.println("The length is : "+ length);
+System.out.println("The breadth is : "+ breadth);
+int area=length*breadth;
+System.out.println("The area is : "+area);
+}
+}
+//Q.4
+public class Main
+{
+public static void main(String[] args) {
+int x = 2;
+int cube=x*x*x;
+System.out.println("The side is : "+x);
+System.out.println("The cube is : "+cube);
+}
+}
+//Q.5
+public class Main
+{
+public static void main(String[] args) {
+int num1=2;
+int num2=3;
+System.out.println("The first number before swap is :" + num1);
+System.out.println("The second number before swap is : " + num2);
+int temp; //variable used to swap two numbers
+temp=num1;
+num1=num2;
+num2=temp;
+System.out.println("The first number after swap is :" + num1);
+System.out.println("The second number after swap is : " + num2);
+}
+}
